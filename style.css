@@ -1,0 +1,78 @@
+body {
+  background-color: rgba(105, 201, 167, 1);
+  background-size: auto;
+  overflow-y: hidden;
+}
+
+.background-mosque {
+  background: url(asset/mosque.jpg);
+}
+
+#divBottom {
+  transition: 0.5s;
+  /* width: 33.333333%; */
+  bottom: -65%;
+}
+
+
+
+#tuas {
+  cursor: grab;
+}
+
+@media (min-width:1024px) and (max-width:1120px) {
+  #divBottom{
+    bottom: -75% !important;
+  }
+}
+
+
+ 
+
+.waktu-sholat {
+  margin-left: 55%;
+}
+
+#selection{
+  width: 180px;
+}
+
+#selection .asep{
+  color: white !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+  color: white !important;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+  border-color:transparent transparent white transparent !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+  border-color: white transparent transparent transparent !important;
+}
+
+.select2-selection {
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
